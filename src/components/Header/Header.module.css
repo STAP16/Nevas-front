@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap");
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px;
+}
+
+.brand label {
+  font-size: 40px;
+  letter-spacing: 20px;
+  font-family: "Istok Web", sans-serif;
+  font-style: normal;
+  user-select: none;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.brand img {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 65px;
+}
+
+.navBar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 24px;
+}
+
+.gradientText {
+  background: linear-gradient(to bottom, #0080a8 37%, #49b2d3 63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
