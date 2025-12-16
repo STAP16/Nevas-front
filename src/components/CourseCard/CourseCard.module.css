@@ -48,7 +48,7 @@
 .descSection h3 {
   font-size: 34px;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
   padding-top: 20px;

@@ -1,6 +1,7 @@
 import styles from "./Header.module.css";
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
+import logo from "./nevas_logo.svg";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -21,7 +22,7 @@ export default function Header() {
   return (
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ""}`}>
       <div className={styles.brand}>
-        <img src="nevas_logo.svg" alt="logotype" />
+        <img src={logo} alt="logotype" />
         <label className={styles.gradientText}>NEVAS</label>
       </div>
 

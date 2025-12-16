@@ -1,33 +1,31 @@
 import styles from "./CourseCard.module.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function CourseCard({ course }) {
   const [isHovered, setIsHovered] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <div
       className={styles.cardContainer}
       onMouseLeave={() => setIsHovered(false)}
       onMouseEnter={() => setIsHovered(true)}
+      onClick={() => navigate(`/course/${course.id}`)}
     >
       <div className={styles.content}>
         <div className={styles.imageContainer}>
-          <img src="courseImage.svg" alt="" />
+          <img src={course.image} alt="" />
         </div>
         <div className={styles.descriptionBlock}>
           <section className={styles.descSection}>
-            <h3>Lorem ipsum</h3>
+            <h3>{course.title}</h3>
           </section>
           <section className={styles.descSection}>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              quam ipsum non aliquid commodi tempore enim architecto vitae eaque
-              facere aperiam, excepturi reprehenderit ipsa praesentium autem
-              incidunt consequatur adipisci sit.
-            </p>
+            <p>{course.description}</p>
           </section>
           <section className={styles.descSection}>
-            <span>Maded by: NEVAS</span>
+            <span>Maded by: {course.author}</span>
           </section>
         </div>
         <section
