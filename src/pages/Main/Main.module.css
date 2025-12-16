@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap");
+.contentBlock {
+  display: grid;
+  height: auto;
+  font-family: "Alexandria", sans-serif;
+  padding-top: 174px;
+}
+
+.mainText {
+  font-size: 100px;
+  letter-spacing: 1px;
+  padding-bottom: 24px;
+}
+
+.dwnText {
+  display: flex;
+  font-size: 55px;
+  gap: 15px;
+}
+
+.bigTextSection {
+  padding-top: 67px;
+  color: #eaebed;
+  padding-bottom: 20px;
+  font-size: 24px;
+  width: 700px;
+}
+
+.imageSection {
+  position: relative;
+}
+.mainImage {
+  width: 800px;
+}
+
+.btnSec {
+  padding-top: 64px;
+  padding-right: 20px;
+}
