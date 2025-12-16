@@ -1,26 +1,19 @@
-import Button from "../../components/Button/Button";
-import styles from "./Main.module.css";
+import FirstScreen from "./Screen/FirstScreen/FirstScreen";
+import SecondScreen from "./Screen/SecondScreen/SecondScreen";
+
+const secondScreenBg = {
+  background: "linear-gradient(to top, #031891, #01072B)",
+};
+
 export default function Main() {
   return (
-    <div className="page">
-      <div>
-        <section className={styles.contentBlock}>
-          <h1 className={styles.mainText}>Фокусировка</h1>
-          <h2 className={styles.dwnText}>
-            первый шаг к <p style={{ color: "#3CC58B" }}>прогрессу</p>
-          </h2>
-          <p className={styles.bigTextSection}>
-            Сфокусируйся на главном, твое внимание постоянно уходит в сторону.
-            Неозможно сбиться с пути, если каждый твой шаг осознан.
-          </p>
-          <div className={styles.btnSec}>
-            <Button>Посмотреть пространство</Button>
-          </div>
-        </section>
+    <>
+      <div className="page">
+        <FirstScreen />
       </div>
-      <section className={styles.imageSection}>
-        <img src="mainLine.svg" alt="" className={styles.mainImage} />
-      </section>
-    </div>
+      <div className="page" style={secondScreenBg}>
+        <SecondScreen />
+      </div>
+    </>
   );
 }

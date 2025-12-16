@@ -1,0 +1,17 @@
+.courseContainerTitle {
+  font-size: 80px;
+  padding-top: 80px;
+  text-align: center;
+  padding-bottom: 40px;
+  letter-spacing: 2px;
+}
+.content {
+  width: 100%;
+  margin-top: -200px;
+}
+
+.courseContainer {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
