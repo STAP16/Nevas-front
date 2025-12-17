@@ -20,7 +20,7 @@ export const courses = [
   {
     id: 3,
     image:
-      "https://sdo.timacad.ru/pluginfile.php/97176/course/overviewfiles/Снимок.JPG",
+      "https://avatars.mds.yandex.net/get-dialogs/1017510/7d0bc4b4a210b620c07b/orig",
     title: "Базы данных логика и строение",
     description:
       "База данных (БД) — это структурированный набор данных в электронном виде, организованный так, чтобы необходимую информацию можно было найти и обработать.",

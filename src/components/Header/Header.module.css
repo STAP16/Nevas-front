@@ -5,6 +5,7 @@
   align-items: center;
   gap: 15px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .brand label {
@@ -13,6 +14,7 @@
   font-family: "Istok Web", sans-serif;
   font-style: normal;
   user-select: none;
+  cursor: pointer;
 }
 
 .navBar {

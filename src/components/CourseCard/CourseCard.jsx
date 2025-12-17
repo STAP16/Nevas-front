@@ -15,7 +15,7 @@ export default function CourseCard({ course }) {
     >
       <div className={styles.content}>
         <div className={styles.imageContainer}>
-          <img src={course.image} alt="" />
+          <img src={course.image ? course.image : "./courseImage.svg"} alt="" />
         </div>
         <div className={styles.descriptionBlock}>
           <section className={styles.descSection}>
