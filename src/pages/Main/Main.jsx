@@ -1,3 +1,4 @@
+import Footer from "./Footer/Footer";
 import FirstScreen from "./Screen/FirstScreen/FirstScreen";
 import SecondScreen from "./Screen/SecondScreen/SecondScreen";
 
@@ -14,6 +15,7 @@ export default function Main() {
       <div className="page" style={secondScreenBg}>
         <SecondScreen />
       </div>
+      <Footer />
     </>
   );
 }

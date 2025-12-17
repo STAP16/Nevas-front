@@ -23,7 +23,7 @@ export default function Header() {
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ""}`}>
       <div className={styles.brand}>
         <img src={logo} alt="logotype" />
-        <label className={styles.gradientText}>NEVAS</label>
+        <label className="gradientText">NEVAS</label>
       </div>
 
       <nav className={styles.navBar}>

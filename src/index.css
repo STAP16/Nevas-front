@@ -32,3 +32,10 @@ a:hover {
 
   padding: 0px 120px;
 }
+
+.gradientText {
+  background: linear-gradient(to bottom, #0080a8 37%, #49b2d3 63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
