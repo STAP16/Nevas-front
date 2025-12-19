@@ -27,9 +27,16 @@
 }
 
 .imageSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
+  padding-left: 100px;
 }
 .mainImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 800px;
 }
 

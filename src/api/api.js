@@ -1,7 +1,7 @@
 export const API = "http://localhost";
 
 //Универсальный запрос на сервер, который будет возвращать данные по переданным параметрам, реализовать в отдельной функции
-// parametr = {endpoint: "/get_...", objectId: 1}
+// parametr = {endpoint: "get_...", objectId: 1}
 // Если objectId не передан, то значит это обычный get запрос без динамического параметра
 
 export function getApiData(parametr) {
@@ -16,7 +16,7 @@ export function getApiData(parametr) {
       setLoading(true);
       try {
         const response = await fetch(
-          `${API}/${endpoint}${objectId ? `/${objectId}` : ""}`
+          `${API}/${endpoint}${objectId ? `/${objectId}` : ""}/`
         );
         if (!response.ok) {
           throw new Error(response.error);

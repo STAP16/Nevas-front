@@ -7,7 +7,7 @@ export default function FirstScreen() {
         <HelloSection />
       </div>
       <section className={styles.imageSection}>
-        <img src="mainLine.svg" alt="" className={styles.mainImage} />
+        <img src="Progres.svg" alt="" className={styles.mainImage} />
       </section>
     </>
   );
